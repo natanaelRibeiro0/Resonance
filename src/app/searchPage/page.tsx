@@ -1,5 +1,4 @@
 "use client"
-import { useSearchParams } from "next/navigation"
 
 const dataGenders: Array<{id: Number; name: String}>  = [
     {
@@ -82,21 +81,12 @@ const dataGenders: Array<{id: Number; name: String}>  = [
   
 
 export default function SearchPage(){
-  // Usado para pegar o parametro passado na pagina home
-  const searchParams = useSearchParams()
-  // Genero selecionado
-  const anchor: String = (searchParams.get('gender'))
-  console.log(anchor)
-  const id = dataGenders.find((element: any) => {
-    const x: any = element.name === anchor
-    return x.id
-  })
+
 
   return(
     <>
-      <h1>{anchor}</h1>
+      <h1>text</h1>
     </>
   )
 }
 
-// https://api.themoviedb.org/3/discover/movie?api_key=[MY_KEY]&language=en-US&page=1&primary_release_year=2019&with_genres=28,12,80

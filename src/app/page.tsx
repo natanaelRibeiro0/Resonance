@@ -10,7 +10,7 @@ export default function Home(){
         <Link 
           href="">
             <Image 
-              src = "/site img/DEV-CHOICES.png"
+              src = "/siteImg/DEV-CHOICES.png"
               alt = "Dev-Choices"
               width = {1000}
               height = {0}
@@ -24,7 +24,7 @@ export default function Home(){
       <div className="genderChoicesContainer flex justify-center flex-wrap place-items-center">
         <Link href={{pathname: "/searchPage", query: { gender: "Action"} }}>
           <Image className = "hover:-translate-y-2 ease-in duration-150"
-            src={"/site img/genders/ACTION.png"}
+            src={"/siteImg/genders/ACTION.png"}
             alt="Action-Banner"
             width={300}
             height={300}
@@ -33,7 +33,7 @@ export default function Home(){
 
         <Link href={{pathname: "/searchPage", query: { gender: "Adventure"} }}>
           <Image className = "hover:-translate-y-2 ease-in duration-150"
-            src={"/site img/genders/ADVENTURE.png"}
+            src={"/siteImg/genders/ADVENTURE.png"}
             alt="Adventure-Banner"
             width={300}
             height={300}
@@ -42,7 +42,7 @@ export default function Home(){
 
         <Link href={{pathname: "/searchPage", query: { gender: "Animation"} }}>
           <Image className = "hover:-translate-y-2 ease-in duration-150"
-            src={"/site img/genders/ANIMATION.png"}
+            src={"/siteImg/genders/ANIMATION.png"}
             alt="Animation-Banner"
             width={300}
             height={300}
@@ -51,7 +51,7 @@ export default function Home(){
 
         <Link href={{pathname: "/searchPage", query: { gender: "Comedy"} }}>
           <Image className = "hover:-translate-y-2 ease-in duration-150"
-            src={"/site img/genders/COMEDY.png"}
+            src={"/siteImg/genders/COMEDY.png"}
             alt="Comedy-Banner"
             width={300}
             height={300}
@@ -60,7 +60,7 @@ export default function Home(){
 
         <Link href={{pathname: "/searchPage", query: { gender: "Crime"} }}>
           <Image className = "hover:-translate-y-2 ease-in duration-150"
-            src={"/site img/genders/CRIME.png"}
+            src={"/siteImg/genders/CRIME.png"}
             alt="Crime-Banner"
             width={300}
             height={300}
@@ -69,7 +69,7 @@ export default function Home(){
 
         <Link href={{pathname: "/searchPage", query: { gender: "Documentary"} }}>
           <Image className = "hover:-translate-y-2 ease-in duration-150"
-            src={"/site img/genders/DOCUMENTARY.png"}
+            src={"/siteImg/genders/DOCUMENTARY.png"}
             alt="Documentation-Banner"
             width={300}
             height={300}
@@ -78,7 +78,7 @@ export default function Home(){
 
         <Link href={{pathname: "/searchPage", query: { gender: "Drama"} }}>
           <Image className = "hover:-translate-y-2 ease-in duration-150"
-            src={"/site img/genders/DRAMA.png"}
+            src={"/siteImg/genders/DRAMA.png"}
             alt="Drama-Banner"
             width={300}
             height={300}
@@ -87,7 +87,7 @@ export default function Home(){
 
         <Link href={{pathname: "/searchPage", query: { gender: "Family"} }}>
           <Image className = "hover:-translate-y-2 ease-in duration-150"
-            src={"/site img/genders/FAMILY.png"}
+            src={"/siteImg/genders/FAMILY.png"}
             alt="Family-Banner"
             width={300}
             height={300}
@@ -96,7 +96,7 @@ export default function Home(){
 
         <Link href={{pathname: "/searchPage", query: { gender: "History"} }}>
           <Image className = "hover:-translate-y-2 ease-in duration-150"
-            src={"/site img/genders/HISTORY.png"}
+            src={"/siteImg/genders/HISTORY.png"}
             alt="History-Banner"
             width={300}
             height={300}
@@ -105,7 +105,7 @@ export default function Home(){
 
         <Link href={{pathname: "/searchPage", query: { gender: "Horror"} }}>
           <Image className = "hover:-translate-y-2 ease-in duration-150"
-            src={"/site img/genders/HORROR.png"}
+            src={"/siteImg/genders/HORROR.png"}
             alt="Horror-Banner"
             width={300}
             height={300}
@@ -114,7 +114,7 @@ export default function Home(){
 
         <Link href={{pathname: "/searchPage", query: { gender: "Mistery"} }}>
           <Image className = "hover:-translate-y-2 ease-in duration-150"
-            src={"/site img/genders/MISTERY.png"}
+            src={"/siteImg/genders/MISTERY.png"}
             alt="Mistery-Banner"
             width={300}
             height={300}
@@ -123,7 +123,7 @@ export default function Home(){
 
         <Link href={{pathname: "/searchPage", query: { gender: "Music"} }}>
           <Image className = "hover:-translate-y-2 ease-in duration-150"
-            src={"/site img/genders/MUSIC.png"}
+            src={"/siteImg/genders/MUSIC.png"}
             alt="Music-Banner"
             width={300}
             height={300}
@@ -133,7 +133,7 @@ export default function Home(){
       
         <Link href={{pathname: "/searchPage", query: { gender: "Romance"} }}>
           <Image className = "hover:-translate-y-2 ease-in duration-150"
-            src={"/site img/genders/ROMANCE.png"}
+            src={"/siteImg/genders/ROMANCE.png"}
             alt="Romance-Banner"
             width={300}
             height={300}
@@ -142,7 +142,7 @@ export default function Home(){
 
         <Link href={{pathname: "/searchPage", query: { gender: "Science Fiction"} }}>
           <Image className = "hover:-translate-y-2 ease-in duration-150"
-            src={"/site img/genders/SCIENCE FICTION.png"}
+            src={"/siteImg/genders/SCIENCE FICTION.png"}
             alt="Science Fiction-Banner"
             width={300}
             height={300}
@@ -151,7 +151,7 @@ export default function Home(){
 
         <Link href={{pathname: "/searchPage", query: { gender: "Thriller"} }}>
           <Image className = "hover:-translate-y-2 ease-in duration-150"
-            src={"/site img/genders/THRILLER.png"}
+            src={"/siteImg/genders/THRILLER.png"}
             alt="Thriller-Banner"
             width={300}
             height={300}
@@ -160,7 +160,7 @@ export default function Home(){
 
         <Link href={{pathname: "/searchPage", query: { gender: "War"} }}>
           <Image className = "hover:-translate-y-2 ease-in duration-150"
-            src={"/site img/genders/WAR.png"}
+            src={"/siteImg/genders/WAR.png"}
             alt="War-Banner"
             width={300}
             height={300}
@@ -169,7 +169,7 @@ export default function Home(){
 
         <Link href={{pathname: "/searchPage", query: { gender: "Western"} }}>
           <Image className = "hover:-translate-y-2 ease-in duration-150"
-            src={"/site img/genders/WESTERN.png"}
+            src={"/siteImg/genders/WESTERN.png"}
             alt="Western-Banner"
             width={300}
             height={300}
