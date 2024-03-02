@@ -9,8 +9,8 @@ export default function Home(){
         <div className="imgConatiner grid place-items-center">
         <Link 
           href="">
-            <Image 
-              src = "/siteImg/DEV-CHOICES.png"
+            <Image className="shadow-lg shadow-slate-900"
+              src = "/siteImg/DEVCHOICES.png"
               alt = "Dev-Choices"
               width = {1000}
               height = {0}
@@ -19,7 +19,7 @@ export default function Home(){
         </div>
       </div>
 
-      <h2 className="py-10 px-44 font-light text-4xl">Search your movie by genders</h2>
+      <h2 className="py-10 px-24 font-light text-4xl">Search your movie by genders</h2>
 
       <div className="genderChoicesContainer flex justify-center flex-wrap place-items-center">
         <Link href={{pathname: "/searchPage", query: { gender: "Action"} }}>
