@@ -6,8 +6,8 @@ export default function Nav(){
     <nav className="py-10 px-28 flex gap-7 items-end">
       <Link 
         href="/">
-        <Image className="p-2 bg-gradient-to-r from-purple-500 to-orange-400 rounded-lg"
-          src = "/siteImg/RESONANCE.svg"
+        <Image className="shadow-2xl shadow-slate-400 p-2 bg-gradient-to-r from-purple-500 to-orange-400 rounded-lg"
+          src = {"/siteImg/RESONANCE.svg"}
           alt = "Resonance-Title"
           width = {300}
           height = {220}
