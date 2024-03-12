@@ -1,0 +1,28 @@
+
+.gendersHref{
+  cursor: default;
+  visibility: hidden;
+}
+
+.active{
+  cursor: pointer;
+  visibility: visible;
+}
+
+.leftBtnCnt{
+  padding-right: 17rem;
+}
+.left{
+  left: 42rem;
+  transform: skewY(15deg);
+  visibility: visible;
+}
+
+.rightBtnCnt{
+  padding-left: 16rem;
+}
+.right{
+  right: 42rem;
+  transform: skewY(-15deg);
+  visibility: visible;
+}
