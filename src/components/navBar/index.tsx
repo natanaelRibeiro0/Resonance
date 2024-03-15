@@ -15,11 +15,11 @@ export default function Nav(){
       </Link>
       <Link 
         href=""
-        className="font-light hover:underline">About the project
+        className="font-extrabold text-gray-50 hover:underline">About the project
       </Link>
       <Link 
         href=""
-        className="font-light hover:underline">Contact Us
+        className="font-extrabold text-gray-50 hover:underline">Contact Us
       </Link>
     </nav>
   )

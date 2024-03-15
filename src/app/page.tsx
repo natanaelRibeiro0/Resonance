@@ -1,14 +1,8 @@
 "use client"
 import Image from "next/image"
 import Link from "next/link"
-import GenderCarrousel from "@/components/carrouselteste"
+import GenderCarrousel from "@/components/gendersCarrousel"
 
-
-function genderCarrosel () {
-  const itens = document.getElementsByClassName("genderCard");
-
-}
-genderCarrosel()
 export default function Home(){
   return (
     <main className="flex flex-col items-center justify-center gap-20">

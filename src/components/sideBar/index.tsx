@@ -30,7 +30,7 @@ export default function SideBar(){
             href="">
             <Image 
               src={"/siteImg/asideIcons/notifications.svg"}
-              alt="User-svg"
+              alt="Notification-svg"
               width={60}
               height={0}
             ></Image> Notifications
@@ -40,7 +40,7 @@ export default function SideBar(){
             href="">
             <Image 
               src={"/siteImg/asideIcons/review.svg"}
-              alt="User-svg"
+              alt="Saved-Reviews-svg"
               width={40}
               height={0}
             ></Image> Saved reviews
@@ -50,7 +50,7 @@ export default function SideBar(){
             href="">
             <Image 
               src={"/siteImg/asideIcons/settings.svg"}
-              alt="User-svg"
+              alt="Settings-svg"
               width={35}
               height={0}
             ></Image> Settings
