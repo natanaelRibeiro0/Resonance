@@ -38,8 +38,6 @@ const result = await fetch('https://api.themoviedb.org/3/movie/popular?language=
   .then(response => response.json())
 
   const data: Array<Movie> = result.results.map((element: PromiseResponse) => {
-    console.log(element)
-    console.log("----------------------------------------------------")
     const movie: Movie = {
       id: element.id,
       title: element.title,
