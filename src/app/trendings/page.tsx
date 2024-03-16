@@ -57,7 +57,7 @@ return(
       <div className="grid grid-cols-3 gap-10">
         {data.map((content) => {
           return(
-            <div  key={content.id} className="bg-red-500 w-52 h-3/4">
+            <div key={content.id.toString()} className="bg-red-500 w-52 h-3/4">
               <Image 
               src={`https://image.tmdb.org/t/p/w500/${content.posterPath}`} 
               width={200} 
