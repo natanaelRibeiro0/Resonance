@@ -1,12 +1,30 @@
 import Image from "next/image";
 
-interface Movie {
-  id: string;
-  title: string, 
-  overview: string, 
-  posterPath: string, 
-  releaseDate: string
+interface PromiseResponse { 
+    adult: Boolean,
+    backdrop_path: String,
+    genre_ids: Array<Number>,
+    id: Number,
+    original_language: String,
+    original_title: String,
+    overview: String,
+    popularity: Number,
+    poster_path: String,
+    release_date: String,
+    title: String,
+    video: Boolean,
+    vote_average: Number,
+    vote_count: Number
 }
+
+interface Movie {
+  id: Number;
+  title: String, 
+  overview: String, 
+  posterPath: String, 
+  releaseDate: String
+}
+
 
 export default async function Trendings(){
   const options = {
@@ -19,13 +37,15 @@ export default async function Trendings(){
 const result = await fetch('https://api.themoviedb.org/3/movie/popular?language=en-US&page=1', options)
   .then(response => response.json())
 
-  const data: Array<Movie> = result.results.map((element: Movie) => {
+  const data: Array<Movie> = result.results.map((element: PromiseResponse) => {
+    console.log(element)
+    console.log("----------------------------------------------------")
     const movie: Movie = {
       id: element.id,
       title: element.title,
       overview: element.overview,
-      posterPath: element.posterPath,
-      releaseDate: element.releaseDate
+      posterPath: element.poster_path,
+      releaseDate: element.release_date
     }
     return movie
   })
