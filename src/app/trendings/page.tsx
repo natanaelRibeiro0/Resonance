@@ -19,7 +19,7 @@ export default async function Trendings(){
 const result = await fetch('https://api.themoviedb.org/3/movie/popular?language=en-US&page=1', options)
   .then(response => response.json())
 
-  const data: Array<Movie> = result.results.map((element) => {
+  const data: Array<Movie> = result.results.map((element: Movie) => {
     const movie: Movie = {
       id: element.id,
       title: element.title,
