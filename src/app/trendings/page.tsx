@@ -1,28 +1,28 @@
 import Image from "next/image";
 
 interface PromiseResponse { 
-    adult: Boolean,
-    backdrop_path: String,
-    genre_ids: Array<Number>,
-    id: Number,
-    original_language: String,
-    original_title: String,
-    overview: String,
-    popularity: Number,
-    poster_path: String,
-    release_date: String,
-    title: String,
-    video: Boolean,
-    vote_average: Number,
-    vote_count: Number
+    adult: boolean,
+    backdrop_path: string,
+    genre_ids: Array<number>,
+    id: number,
+    original_language: string,
+    original_title: string,
+    overview: string,
+    popularity: number,
+    poster_path: string,
+    release_date: string,
+    title: string,
+    video: boolean,
+    vote_average: number,
+    vote_count: number
 }
 
 interface Movie {
-  id: Number;
-  title: String, 
-  overview: String, 
-  posterPath: String, 
-  releaseDate: String
+  id: number;
+  title: string, 
+  overview: string, 
+  posterPath: string, 
+  releaseDate: string
 }
 
 

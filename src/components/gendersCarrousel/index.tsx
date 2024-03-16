@@ -1,3 +1,5 @@
+"use client"
+
 // -------------------------------------------------------------------------------------------------
   // Swiper imports
 import { register } from 'swiper/element/bundle';
