@@ -24,8 +24,8 @@ const result = await fetch('https://api.themoviedb.org/3/movie/popular?language=
       id: element.id,
       title: element.title,
       overview: element.overview,
-      posterPath: element.poster_path,
-      releaseDate: element.release_date
+      posterPath: element.posterPath,
+      releaseDate: element.releaseDate
     }
     return movie
   })
