@@ -9,7 +9,8 @@ import 'swiper/css/pagination';
 import { Navigation, Pagination } from "swiper/modules";
 import { useEffect } from "react";
 // -------------------------------------------------------------------------------------------------
-  // Components import 
+  
+// Components import 
 import CardLink from './components/CardLink';
 import CardImg from './components/CardImg';
 
@@ -41,7 +42,7 @@ export default function GenderCarrousel(){
 
   return (
     <>
-      <h1 className="p-10 bg-white rounded-lg font-mono italic"> Wanna explore? Pic a gender and make it happen 🍿🍿🎥 </h1>
+      <h1 className="p-5 bg-white rounded-lg font-mono italic bg-gradient-to-r from-purple-500 to-orange-400"> Wanna explore? Pic a gender and make it happen 🍿🍿🎥 </h1>
         <div 
           className="swiper"
           style={{width: "900px", height: "500px"}}>
