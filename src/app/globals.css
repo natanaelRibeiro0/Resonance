@@ -4,4 +4,20 @@
 
 body {
   background-image: url("../../public/siteImg/background/BodyBackground.png");
+  display: flex;
+  flex-direction: column;
+  gap: 8rem;
+}
+
+.searchBtn{
+  background-image: url("../../public/siteImg/SEARCH-ICON.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  
+  width: 35px;
+  max-width: 40px;
+  min-width: 20px;
+  height: 36px;
+  max-height: 40px;
+  min-height: 20px;
 }
