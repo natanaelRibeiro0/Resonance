@@ -44,7 +44,7 @@ export default function GenderCarrousel(){
 
   return (
     <>
-      <h1 className="p-5 bg-white rounded-lg font-mono italic bg-gradient-to-r from-purple-500 to-orange-400"> Wanna explore? Pic a gender and make it happen 🍿🍿🎥 </h1>
+      <h1 className= "p-5 rounded-lg font-mono italic  bg-gradient-to-r from-purple-500 to-orange-400"> Wanna explore? Pic a gender and make it happen 🍿🍿🎥 </h1>
         <div 
           className="swiper"
           style={{width: "900px", height: "500px"}}>
@@ -147,8 +147,8 @@ export default function GenderCarrousel(){
             <div className="swiper-pagination"></div>
 
             {/* <!-- Navegation --> */}
-            <div className="swiper-button-prev "></div>
-            <div className="swiper-button-next "></div>
+            <div className="swiper-button-prev pr-10"></div>
+            <div className="swiper-button-next pl-10"></div>
         
         </div>
 

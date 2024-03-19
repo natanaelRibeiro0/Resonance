@@ -7,7 +7,7 @@ interface PropsDefinition{
 export default function CardImg({ src, alt }: PropsDefinition){
   return(
     <>    
-      <Image className="hover:-translate-y-6 transition-all" 
+      <Image className="hover:-translate-y-6 transition-all backdrop-blur-[2px]" 
         src={src}
         alt={alt}
         width={800}
