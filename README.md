@@ -1,23 +1,26 @@
 >[!Tip]
 >You can follow the process [here](https://resonance-lemon.vercel.app/)
 
+
 ![favicon-icon](https://github.com/natanaelRibeiro0/Resonance/assets/137962473/0bd224bf-7740-46b7-b7c6-50bffe160fd8)
 
-## Layout
+
+## [Layout](#layout)
 + About
 + Components
 	1. *Nav*
 	2. *Aside*
 	3. *Footer*
 
-## Home Page
- + About
+
+## [Home Page](#homePage)
  + Components
 	  1.  *DevChoices banner*
 	  2.  *Genders Cards*
 	  3.  *Trending*
 
-# `Layout`
+# <a name="layout"></a>Layout
+
 
 ## About
 
@@ -40,8 +43,7 @@ Basicaly, elements used in the `Layout` are default components that any page nee
 
 
 
-# `Home Page` 
-
+#  <a name="homePage"></a>Home Page
 
 ## About 
 	* The home page is the principal page *  
