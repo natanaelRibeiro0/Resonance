@@ -22,13 +22,14 @@
 # <a name="layout"></a>Layout
 
 
-## About
+## About 	  ![text svg](https://github.com/natanaelRibeiro0/Resonance/assets/137962473/b1b615c1-2cae-47fa-8456-32b2901df02b)  
 
 The Layout is the archive where you will find 3 components shared in every page
 Basicaly, elements used in the `Layout` are default components that any page need to have, being `<Nav>, <Aside>,` and `<Footer>`
 
 
-## Components
+## Components ![component svg](https://github.com/natanaelRibeiro0/Resonance/assets/137962473/ea3b068e-345d-4414-ab86-a4fc5f24cafe)
+
 
 > ### Nav
 
@@ -45,8 +46,7 @@ Basicaly, elements used in the `Layout` are default components that any page nee
 
 #  <a name="homePage"></a>Home Page
 
-## About 
-	* The home page is the principal page *  
+## About  ![text svg](https://github.com/natanaelRibeiro0/Resonance/assets/137962473/b1b615c1-2cae-47fa-8456-32b2901df02b)
 
 Resonance is projected to focus in movies and users interactions. With that in mind, the site principal page was designed to make users find movies ( *or genders*) to discover and rate. The user can also search a movie, where he will can interact to in his own page
 
@@ -55,7 +55,8 @@ You can also interact with a banner called "Dev choices", where our devs create 
 In future, we will add components that will interact with the movies that the users friend's are watching, rating or saving. Some examples are componentes that show recent movies rated by your friends, where you can comment, like or quote to make a new rate about a movie 
 
 
-## Components
+## Components ![component svg](https://github.com/natanaelRibeiro0/Resonance/assets/137962473/ea3b068e-345d-4414-ab86-a4fc5f24cafe)
+
 
 > ###  "Dev Choices" banner
 	Path: `src/app/components/Home\ Page/Dev\ Choice`
