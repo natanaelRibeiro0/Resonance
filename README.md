@@ -1,6 +1,9 @@
+---
+
 >[!Tip]
 >You can follow the process [here](https://resonance-lemon.vercel.app/)
 
+---
 
 ![favicon-icon](https://github.com/natanaelRibeiro0/Resonance/assets/137962473/0bd224bf-7740-46b7-b7c6-50bffe160fd8)
 
@@ -8,17 +11,17 @@
 ## [Layout](#layout)
 + About
 + Components
-	1. *Nav*
-	2. *Aside*
-	3. *Footer*
+	1. Nav
+	2. Aside
+	3. Footer
 
 
 ## [Home Page](#homePage)
 + About
 + Components
-	1. *DevChoices banner*
-	2. *Genders Cards*
-	3. *Trending*
+	1. DevChoices banner
+	2. Genders Card
+	3. Trending
 
 # <a name="layout"></a>Layout
 
