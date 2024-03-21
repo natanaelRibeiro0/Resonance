@@ -14,10 +14,11 @@
 
 
 ## [Home Page](#homePage)
- + Components
-	  1.  *DevChoices banner*
-	  2.  *Genders Cards*
-	  3.  *Trending*
++ About
++ Components
+	1. *DevChoices banner*
+	2. *Genders Cards*
+	3. *Trending*
 
 # <a name="layout"></a>Layout
 
