@@ -1,8 +1,8 @@
-![](https://github.com/natanaelRibeiro0/Resonance/assets/137962473/66ed8c6f-c0d1-4d3a-9a28-d7bb961827d9)
-
----            
+![](https://github.com/natanaelRibeiro0/Resonance/assets/137962473/66ed8c6f-c0d1-4d3a-9a28-d7bb961827d9)            
 
 ![](https://img.shields.io/badge/TypeScript-3178C6.svg?style=for-the-badge&logo=TypeScript&logoColor=white) ![](https://img.shields.io/badge/Next.js-000000.svg?style=for-the-badge&logo=nextdotjs&logoColor=white) ![](https://img.shields.io/badge/Tailwind%20CSS-06B6D4.svg?style=for-the-badge&logo=Tailwind-CSS&logoColor=white) ![](https://img.shields.io/badge/Swiper-6332F6.svg?style=for-the-badge&logo=Swiper&logoColor=white)
+
+---
 
 ![documentation topics](https://github.com/natanaelRibeiro0/Resonance/assets/137962473/0c7da6f7-e8f9-4f7a-a123-dd42d65da2c3)
 
