@@ -9,7 +9,7 @@ export default function SideBar(){
     -translate-x-80
     shadow-lg shadow-slate-900
   text-stone-50 
-    bg-gradient-to-r from-purple-500 to-orange-400
+    bg-gradient-to-b from-purple-500 to-orange-400
     hover:translate-x-0 ease-out duration-1000"
     >
         <ul className="
