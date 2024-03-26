@@ -9,9 +9,9 @@ import 'swiper/css/bundle';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import { Navigation, Pagination } from "swiper/modules";
-import { useEffect } from "react";
 // -------------------------------------------------------------------------------------------------
-  
+
+import { useEffect } from "react";
 // Components import 
 import CardLink from './components/CardLink';
 import CardImg from './components/CardImg';
@@ -151,8 +151,8 @@ export default function GenderCarrousel(){
             <div className="swiper-pagination"></div>
 
             {/* <!-- Navegation --> */}
-            <div className="swiper-button-prev pr-10"></div>
-            <div className="swiper-button-next pl-10"></div>
+            <div className="swiper-button-prev pr-9"></div>
+            <div className="swiper-button-next pl-9"></div>
         
         </div>
 
