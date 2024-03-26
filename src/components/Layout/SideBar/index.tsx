@@ -8,7 +8,7 @@ export default function SideBar(){
     fixed 
     -translate-x-80
     shadow-lg shadow-slate-900
-  text-stone-50 
+    text-stone-50 
     bg-gradient-to-b from-purple-500 to-orange-400
     hover:translate-x-0 ease-out duration-1000"
     >
