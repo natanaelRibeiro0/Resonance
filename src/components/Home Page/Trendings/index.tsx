@@ -8,7 +8,7 @@ interface PromiseResponse {
   release_date: string,
 }
 
-interface Movie {
+export interface Movie {
 id: number;
 title: string, 
 overview: string, 

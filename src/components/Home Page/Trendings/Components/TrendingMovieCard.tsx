@@ -3,9 +3,14 @@
 import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
+import { Movie } from "..";
+  
+interface Props {
+  key: number,
+  props: Movie 
+}
 
-
-export default function TrendingMovieCard( { key, props }){
+export default function TrendingMovieCard( { key, props }: Props){
   const [ showMovieDetails, setShowMovieDetails] = useState(false)
   return(
     <>
