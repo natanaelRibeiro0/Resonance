@@ -27,9 +27,11 @@ export default function TrendingMovieCard( { key, props }: Props){
             p-2 pb-[4.7rem]
             absolute flex flex-col gap-2
             text-white 
-            bg-zinc-950 bg-opacity-85"
+            bg-zinc-950 bg-opacity-0
+            transition ease-in-out 
+            hover:bg-opacity-80"
           >
-          <p className="font-bold text-center line-clamp-1"> {props.title}</p>
+          <p className="font-bold text-center line-clamp-1 transition ease-in-out hover:-translate-y-1 hover:scale-110"> {props.title}</p>
           <hr/>
           <p className="font-tin line-clamp-6"> {props.overview}</p>
           <p >({props.releaseDate}) </p>
