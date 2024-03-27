@@ -1,8 +1,8 @@
-![](https://github.com/natanaelRibeiro0/Resonance/assets/137962473/66ed8c6f-c0d1-4d3a-9a28-d7bb961827d9)            
+![](https://github.com/natanaelRibeiro0/Resonance/assets/137962473/66ed8c6f-c0d1-4d3a-9a28-d7bb961827d9)
+
+---            
 
 ![](https://img.shields.io/badge/TypeScript-3178C6.svg?style=for-the-badge&logo=TypeScript&logoColor=white) ![](https://img.shields.io/badge/Next.js-000000.svg?style=for-the-badge&logo=nextdotjs&logoColor=white) ![](https://img.shields.io/badge/Tailwind%20CSS-06B6D4.svg?style=for-the-badge&logo=Tailwind-CSS&logoColor=white) ![](https://img.shields.io/badge/Swiper-6332F6.svg?style=for-the-badge&logo=Swiper&logoColor=white)
-
----
 
 ![documentation topics](https://github.com/natanaelRibeiro0/Resonance/assets/137962473/0c7da6f7-e8f9-4f7a-a123-dd42d65da2c3)
 
@@ -12,17 +12,17 @@
 > ## [Layout](#layout)
 + About
 + Components
-   1. *Nav*
-   2. *Aside*
-   3. *Footer*
+1. *Nav*
+2. *Aside*
+3. *Footer*
 
 
 > ## [Home Page](#homePage)
- + About
++   About
  + Components
-   1. *DevChoices banner*
-   2. *Genders Cards*
-   3. *Trending*
+1.  *DevChoices banner*
+2.  *Genders Cards*
+3.  *Trending*
 
 #  ![style icon](https://github.com/natanaelRibeiro0/Resonance/assets/137962473/810f91e7-06cd-4890-835c-0641e4b0e6d1)  [Styling](#styling)
 
@@ -98,10 +98,6 @@ In future, we will add components that will interact with the movies that the us
    
    For the creation of the slider, we decide to use the library [Swiper Js](https://swiperjs.com/), to create slides with more responsive and practicals. 
    
-   The configuration of slides can be found in his own component page with the sintax:
-   
-![Swiper Configuration](https://github.com/natanaelRibeiro0/Resonance/assets/137962473/640b7171-44d6-4467-a909-b6eb912173f7)
-   
    Each slide is composed with a `Link` component, where they receive a `object` in his `href`, being:
    
    + **`href`**: The path to redirect
@@ -125,7 +121,7 @@ In future, we will add components that will interact with the movies that the us
 
 # ![style icon](https://github.com/natanaelRibeiro0/Resonance/assets/137962473/810f91e7-06cd-4890-835c-0641e4b0e6d1) <a name="styling"></a>Styling
 
-## <a name="tailwind">Tailwind</a> 
+## <a name="tailwind"></a> Tailwind 
 
 ### Why Tailwind?
 
@@ -156,7 +152,36 @@ Even though simplicity and good results, Tailwind can look a little confusing wh
 	  
 	  9.  ** Pseudo class** : In the nineten line, we reserved to place `pseudo class` atributes. In that line you can find `values` like: `hover`, `focus` ....
 
+## 
+<a name="#swiper-style"></a> SwiperJS
 
+### Why SwiperJS?
+
+**Resonance** is a training project. This means that every element, module, component is designed to exercise and acquire more knowledge in front-end development. In the first slides developed for **Resonance**, we encountered a problem: `Next` does not allow developers to use DOM elements in their framework. For that reason, we decided to use an external module to train module import, style definition, and componentization of external frameworks. Besides that, we chose that framework because of its good design and responsiveness.
+
+### Swiper styles config
+
+For now, a single slide is on the homepage, which is the gender carousel (`src/app/components/Home Page/GenderCarrousel/index.tsx`).
+
+The configuration of this slide can be found in its own component directory with the syntax:
+
+![Swiper Configuration](https://github.com/natanaelRibeiro0/Resonance/assets/137962473/640b7171-44d6-4467-a909-b6eb912173f7)
+
+
+Being:
+
+1.  Direction: The direction of the slide
+2.  Loop: Determine if the slide show will end on the last slide or not
+3.  Slides per view: How many slides will be shown on the user's screen
+4.  Effect: Define an effect style for the slides
+5.  Coverflow Effect: Define values for the defined effect
+6.  Pagination: Define that we will use pagination under the slides
+7.  Navigation: Define what elements will be used to navigate in the slides
+8.  Modules: Modules for SwiperJS to work
+
+You can change those values by referring to the [Swiper documentation](https://swiperjs.com/swiper-api).
+
+For a better explanation of how the slides redirect the users, you can see the topic `Pages/Home Page/components`.
 
 ![favicon-icon](https://github.com/natanaelRibeiro0/Resonance/assets/137962473/0bd224bf-7740-46b7-b7c6-50bffe160fd8)
 > [!Tip]
