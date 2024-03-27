@@ -20,20 +20,21 @@ export default function GenderCarrousel(){
   // Will active when everything load
   useEffect(() => {
     const swiper = new Swiper('.swiper', {
-      // Custom items
-
-        // Direction
+      
       direction: 'horizontal',
-        // Infinite
       loop: true,
-        // Slides per view
       slidesPerView: 3,
-        // Effect
+      
+      effect: "coverflow",
+      coverflowEffect: {
+        depth: 300,
+        slideShadows: false,
+      },
+
       pagination: {
           el: '.swiper-pagination',
           clickable: true,
       },      
-      // Navigation arrows
       navigation: {
         nextEl: '.swiper-button-next',
         prevEl: '.swiper-button-prev',
@@ -51,7 +52,7 @@ export default function GenderCarrousel(){
         bg-gradient-to-r from-purple-500 to-orange-400"> Wanna explore? Pic a gender and make it happen 🍿🍿🎥 </h1>
         <div 
           className="swiper"
-          style={{width: "900px", height: "500px"}}>
+          style={{width: "800px", height: "500px"}}>
             
             <div className="swiper-wrapper">
     
@@ -151,8 +152,8 @@ export default function GenderCarrousel(){
             <div className="swiper-pagination"></div>
 
             {/* <!-- Navegation --> */}
-            <div className="swiper-button-prev pr-9"></div>
-            <div className="swiper-button-next pl-9"></div>
+            <div className="swiper-button-prev p-8 opacity-80 border-2 rounded-full border-red-500 bg-white hover:opacity-100"></div>
+            <div className="swiper-button-next p-8 opacity-80 border-2 rounded-full border-red-500 bg-white hover:opacity-100"></div>
         
         </div>
 
