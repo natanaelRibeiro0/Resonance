@@ -1,5 +1,8 @@
 "use client"
 
+// React
+import { useEffect } from "react";
+
 // -------------------------------------------------------------------------------------------------
   // Swiper imports
 import { register } from 'swiper/element/bundle';
@@ -11,13 +14,12 @@ import 'swiper/css/pagination';
 import { Navigation, Pagination } from "swiper/modules";
 // -------------------------------------------------------------------------------------------------
 
-import { useEffect } from "react";
 // Components import 
 import CardLink from './components/CardLink';
 import CardImg from './components/CardImg';
 
 export default function GenderCarrousel(){
-  // Will active when everything load
+
   useEffect(() => {
     const swiper = new Swiper('.swiper', {
       
@@ -152,8 +154,8 @@ export default function GenderCarrousel(){
             <div className="swiper-pagination"></div>
 
             {/* <!-- Navegation --> */}
-            <div className="swiper-button-prev p-8 opacity-80 border-2 rounded-full border-red-500 bg-white hover:opacity-100"></div>
-            <div className="swiper-button-next p-8 opacity-80 border-2 rounded-full border-red-500 bg-white hover:opacity-100"></div>
+            <div className="swiper-button-prev p-8 border-2 rounded-full border-red-500 bg-white opacity-80 hover:opacity-100"></div>
+            <div className="swiper-button-next p-8 border-2 rounded-full border-red-500 bg-white opacity-80 hover:opacity-100"></div>
         
         </div>
 
