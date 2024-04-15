@@ -2,14 +2,13 @@ import Link from "next/link"
 import Image from "next/image"
 export default function SideBar(){
   return(
-    <aside className=" h-full 
-    w-1/5
-    flex
-    fixed 
-    -translate-x-80
-    shadow-lg shadow-slate-900
+    <aside className=" 
+    h-full w-1/5
+    flex fixed -translate-x-80
     text-stone-50 
     bg-gradient-to-b from-purple-500 to-orange-400
+    rounded-r-3xl
+    shadow-lg shadow-slate-900
     hover:translate-x-0 ease-out duration-1000"
     >
         <ul className="
