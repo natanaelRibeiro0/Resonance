@@ -16,10 +16,7 @@ posterPath: string,
 releaseDate: string
 }
 
-
-
 export default async function Trendings(){
-  
 
   const options = {
     headers: {
