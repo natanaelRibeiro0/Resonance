@@ -47,4 +47,3 @@ export default function TrendingMovieCard( { key, props }: Props){
   </>
   )
 }  
-// h-60 overflow-hidden whitespace-nowrap text-ellipsis 
