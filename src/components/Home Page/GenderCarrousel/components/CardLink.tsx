@@ -8,7 +8,7 @@ interface LinkProps{
 export default function CardLink({ gender, children}: LinkProps){
   return(
     <>
-      <Link href={{ pathname: "/searchPage", query: { gender : gender }}} className="swiper-slide">
+      <Link href={{ pathname: "/GendersPage", query: { gender : gender }}} className="swiper-slide">
         {children}
       </Link>
     </>

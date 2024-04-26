@@ -10,7 +10,7 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "RESONANCE",
   description: "RESONANCE",
-  icons: "/siteImg/favicon-icon.svg"
+  icons: "/Images/favicon-icon.svg"
 };
 
 export default function RootLayout({

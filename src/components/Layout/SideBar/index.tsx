@@ -1,5 +1,6 @@
 import Link from "next/link"
 import Image from "next/image"
+
 export default function SideBar(){
   return(
     <aside className=" 
@@ -24,7 +25,7 @@ export default function SideBar(){
               ease-out duration-200"
               >
             <Image 
-              src={"/siteImg/asideIcons/user.svg"}
+              src={"/Images/asideIcons/user.svg"}
               alt="User-svg"
               width={60}
               height={0}
@@ -39,7 +40,7 @@ export default function SideBar(){
               hover:bg-rose-500 rounded-full"
               >
             <Image 
-              src={"/siteImg/asideIcons/notifications.svg"}
+              src={"/Images/asideIcons/notifications.svg"}
               alt="Notification-svg"
               width={60}
               height={0}
@@ -53,7 +54,7 @@ export default function SideBar(){
               ease-out duration-200
               hover:bg-rose-500 rounded-full">
             <Image 
-              src={"/siteImg/asideIcons/review.svg"}
+              src={"/Images/asideIcons/review.svg"}
               alt="Saved-Reviews-svg"
               width={40}
               height={0}
@@ -67,7 +68,7 @@ export default function SideBar(){
               ease-out duration-200
               hover:bg-rose-500 rounded-full">
             <Image 
-              src={"/siteImg/asideIcons/settings.svg"}
+              src={"/Images/asideIcons/settings.svg"}
               alt="Settings-svg"
               width={35}
               height={0}

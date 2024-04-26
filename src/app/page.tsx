@@ -5,13 +5,11 @@ import DevChoices from "@/components/Home Page/Dev Choice"
 export default function Home(){
   return (
     <main className="flex flex-col items-center justify-center gap-20">
-      
       <DevChoices/>
       
       <GenderCarrousel/>
       
       <Trendings/>
-
-  </main>
+    </main>
   )
 }

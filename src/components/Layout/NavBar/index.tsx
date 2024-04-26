@@ -13,7 +13,7 @@ export default function Nav(){
           href="/">
           <Image className="
             shadow-2xl shadow-slate-400 p-2 bg-gradient-to-r from-purple-500 to-orange-400 rounded-lg"
-            src = {"/siteImg/RESONANCE.svg"}
+            src = {"/Images/RESONANCE.svg"}
             alt = "Resonance-Title"
             width = {300}
             height = {220}

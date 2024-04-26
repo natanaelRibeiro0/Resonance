@@ -3,14 +3,16 @@
 @tailwind utilities;
 
 body {
-  background-image: url("../../public/siteImg/background/BodyBackground.png");
+  background-image: url("../../public/Images/background/BodyBackground.png");
+  height: 100vh;
+  
   display: flex;
   flex-direction: column;
   gap: 8rem;
 }
 
 .searchBtn{
-  background-image: url("../../public/siteImg/SEARCH-ICON.svg");
+  background-image: url("../../public/Images/SEARCH-ICON.svg");
   background-position: center;
   background-repeat: no-repeat;
   

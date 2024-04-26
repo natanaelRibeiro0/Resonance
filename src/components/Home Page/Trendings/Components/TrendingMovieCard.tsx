@@ -17,7 +17,7 @@ export default function TrendingMovieCard( { key, props }: Props){
       <Link 
         href={""} key={key}
         className=" 
-        border-4 border-red-500 backdrop-blur-sm"  
+        border-4 border-black backdrop-blur-sm"  
         onMouseEnter={ () =>  setShowMovieDetails(true)}
         onMouseLeave={ () =>  setShowMovieDetails(false)}
         >

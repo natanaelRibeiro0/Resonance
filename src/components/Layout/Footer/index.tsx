@@ -5,11 +5,11 @@ export default function Footer(){
   return(
     <footer 
       className="
-        w-screen h-20 
+        w-full h-20 
         flex justify-around items-center gap-32 
         text-white bg-red-600">
       <Image 
-        src={"siteImg/favicon-icon.svg"} 
+        src={"Images/favicon-icon.svg"} 
         alt="Site Icon" 
         width={100} 
         height={100} 
