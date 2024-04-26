@@ -60,92 +60,92 @@ export default function GenderCarrousel(){
     
              {/* <!-- Cards Slides --> */}
               <CardLink gender="ACTION">
-                <CardImg src={"/siteImg/genders/ACTION.png"} alt="Action Card">
+                <CardImg src={"/Images/genders/ACTION.png"} alt="Action Card">
                 </CardImg>
               </CardLink>
 
               <CardLink gender="ADVENTURE">
-                <CardImg src={"/siteImg/genders/ADVENTURE.png"} alt="Adventure Card">
+                <CardImg src={"/Images/genders/ADVENTURE.png"} alt="Adventure Card">
                 </CardImg>
               </CardLink>
 
               <CardLink gender="ANIMATION">
-                <CardImg src={"/siteImg/genders/ANIMATION.png"} alt="Animation Card">
+                <CardImg src={"/Images/genders/ANIMATION.png"} alt="Animation Card">
                 </CardImg>
               </CardLink>
 
               <CardLink gender="COMEDY">
-                <CardImg src={"/siteImg/genders/COMEDY.png"} alt="Comedy Card">
+                <CardImg src={"/Images/genders/COMEDY.png"} alt="Comedy Card">
                 </CardImg>
               </CardLink>
 
               <CardLink gender="CRIME">
-                <CardImg src={"/siteImg/genders/CRIME.png"} alt="Crime Card">
+                <CardImg src={"/Images/genders/CRIME.png"} alt="Crime Card">
                 </CardImg>
               </CardLink>
               
               <CardLink gender="DOCUMENTARY">
-                <CardImg src={"/siteImg/genders/DOCUMENTARY.png"} alt="Documentary Card">
+                <CardImg src={"/Images/genders/DOCUMENTARY.png"} alt="Documentary Card">
                 </CardImg>
               </CardLink>
 
               <CardLink gender="DRAMA">
-                <CardImg src={"/siteImg/genders/DRAMA.png"} alt="Drama Card">
+                <CardImg src={"/Images/genders/DRAMA.png"} alt="Drama Card">
                 </CardImg>
               </CardLink>
 
               <CardLink gender="FAMILY">
-                <CardImg src={"/siteImg/genders/FAMILY.png"} alt="Family Card">
+                <CardImg src={"/Images/genders/FAMILY.png"} alt="Family Card">
                 </CardImg>
               </CardLink>
 
               <CardLink gender="FANTASY">
-                <CardImg src={"/siteImg/genders/FANTASY.png"} alt="Fantasy Card">
+                <CardImg src={"/Images/genders/FANTASY.png"} alt="Fantasy Card">
                 </CardImg>
               </CardLink>
 
               <CardLink gender="HISTORY">
-                <CardImg src={"/siteImg/genders/HISTORY.png"} alt="History Card">
+                <CardImg src={"/Images/genders/HISTORY.png"} alt="History Card">
                 </CardImg>
               </CardLink>
 
               <CardLink gender="HORROR">
-                <CardImg src={"/siteImg/genders/HORROR.png"} alt="Horror Card">
+                <CardImg src={"/Images/genders/HORROR.png"} alt="Horror Card">
                 </CardImg>
               </CardLink>
 
               <CardLink gender="MISTERY">
-                <CardImg src={"/siteImg/genders/MISTERY.png"} alt="Mistery Card">
+                <CardImg src={"/Images/genders/MISTERY.png"} alt="Mistery Card">
                 </CardImg>
               </CardLink>
 
               <CardLink gender="MUSIC">
-                <CardImg src={"/siteImg/genders/MUSIC.png"} alt="Mistery Card">
+                <CardImg src={"/Images/genders/MUSIC.png"} alt="Mistery Card">
                 </CardImg>
               </CardLink>
 
               <CardLink gender="ROMANCE">
-                <CardImg src={"/siteImg/genders/ROMANCE.png"} alt="Romance Card">
+                <CardImg src={"/Images/genders/ROMANCE.png"} alt="Romance Card">
                 </CardImg>
               </CardLink>
 
               <CardLink gender="SCIENCE FICTION">
-                <CardImg src={"/siteImg/genders/SCIENCE FICTION.png"} alt="Science Fiction Card">
+                <CardImg src={"/Images/genders/SCIENCE FICTION.png"} alt="Science Fiction Card">
                 </CardImg>
               </CardLink>
 
               <CardLink gender="THRILLER">
-                <CardImg src={"/siteImg/genders/THRILLER.png"} alt="Thriller Card">
+                <CardImg src={"/Images/genders/THRILLER.png"} alt="Thriller Card">
                 </CardImg>
               </CardLink>
 
               <CardLink gender="WAR">
-                <CardImg src={"/siteImg/genders/WAR.png"} alt="War Card">
+                <CardImg src={"/Images/genders/WAR.png"} alt="War Card">
                 </CardImg>
               </CardLink>
 
               <CardLink gender="WESTERN">
-                <CardImg src={"/siteImg/genders/WESTERN.png"} alt="Western Card">
+                <CardImg src={"/Images/genders/WESTERN.png"} alt="Western Card">
                 </CardImg>
               </CardLink>
             </div>
