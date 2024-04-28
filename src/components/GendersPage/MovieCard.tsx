@@ -12,6 +12,7 @@ export default function MovieCard({ key, src}: Props){
     hover:shadow-2xl hover:shadow-black 
   ">
     <img 
+      className="w-[330px] h-[480px]"
       src={`https://image.tmdb.org/t/p/w300/${src}`} 
       alt="movie poster"
       />

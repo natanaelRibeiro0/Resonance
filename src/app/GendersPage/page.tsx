@@ -35,26 +35,27 @@ export default function SearchPage(){
   const searchParams = useSearchParams()
 
   const querry: string | null = searchParams.get("gender")
-  
+
   const [page, setPage] = useState(1)
   const [movies, setMovies] = useState([])
   const [loadState, setLoadState] = useState(false)
 
   useEffect(() => {
-      if (!querry) return; 
+      if (!querry) return 
     
       const fetchMovies = async () => {
         try {
-          const response = await fetchGendersMovies(querry, page);
+          const response = await fetchGendersMovies(querry, page)
           setMovies(response.results)
         } catch (error) {
-          console.error("Error finding the movies", error);
+          console.error("Error finding the movies", error)
         }
-      };
+      }
       
-      fetchMovies();
+      fetchMovies()
       setLoadState(true)
-    }, [page, querry]); 
+      console.log("setou true")
+    }, [page, querry]) 
 
   return(
   <>
@@ -64,7 +65,7 @@ export default function SearchPage(){
           {
             movies.map((element: Movie) => {
               return (
-              <MovieCard key={element.id}src={element.poster_path}/>
+              <MovieCard key={element.id} src={element.poster_path}/>
               )
             })
           }
