@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+
 body {
   background-image: url("../../public/Images/background/BodyBackground.png");
   height: 100vh;
@@ -22,4 +23,39 @@ body {
   height: 36px;
   max-height: 40px;
   min-height: 20px;
+}
+
+[data-emoji="hearth"] {
+  background-image: url("../../public/Images/emojis/hearth.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+[data-emoji="happy"] {
+  background-image: url("../../public/Images/emojis/happy.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+[data-emoji="fire"] {
+  background-image: url("../../public/Images/emojis/fire.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+[data-emoji="bad"] {
+  background-image: url("../../public/Images/emojis/bad.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+[data-emoji="sad"] {
+  background-image: url("../../public/Images/emojis/sad.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
