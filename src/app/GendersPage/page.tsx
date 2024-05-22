@@ -10,20 +10,15 @@ import RightArrow from "@/components/GendersPage/RightArrow"
 import MovieCard from "@/components/GendersPage/MovieCard"
 
 interface Movie {
-  adult: Boolean ,
-  backdrop_path: string,
   genre_ids: Array<number>
   id: number,
-  original_language: string,
   original_title: string,
   overview: string,
-  popularity: number,
   poster_path: string,
   release_date: string,
   title: string,
   video: Boolean,
   vote_average: number,
-  vote_count: number 
 }
 
 export interface GenderObjectInterface {
@@ -47,6 +42,7 @@ export default function SearchPage(){
         try {
           const response = await fetchGendersMovies(querry, page)
           setMovies(response.results)
+
         } catch (error) {
           console.error("Error finding the movies", error)
         }
@@ -54,8 +50,8 @@ export default function SearchPage(){
       
       fetchMovies()
       setLoadState(true)
-      console.log("setou true")
-    }, [page, querry]) 
+      console.log(movies)
+    }, [page, querry, movies]) 
 
   return(
   <>
@@ -65,14 +61,23 @@ export default function SearchPage(){
           {
             movies.map((element: Movie) => {
               return (
-              <MovieCard key={element.id} src={element.poster_path}/>
+              <MovieCard
+              key={element.id}
+              genre_ids={element.genre_ids}
+              id={element.id}
+              original_title={element.original_title}
+              overview={element.overview}
+              poster_path={`https://image.tmdb.org/t/p/w300/${element.poster_path}`}
+              release_date={element.release_date}
+              title={element.title}
+              vote_average={element.vote_average}/>
               )
             })
           }
 
           <div className="pages-container gap-12 flex items-center">
             <div onClick={() => { 
-              if(page == 1) {
+              if(page === 1) {
                 return null
               }
 
@@ -91,7 +96,7 @@ export default function SearchPage(){
           </div>
         </Header>            
 
-      : <LoadingScreen /> 
+      : <LoadingScreen />
     }
     </>
   )
