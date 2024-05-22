@@ -19,15 +19,6 @@ export default function Nav(){
             height = {220}
           />
         </Link>
-    
-        <Link 
-          href=""
-          className="font-semibold text-red-800 hover:underline">About the project
-        </Link>
-        <Link 
-          href=""
-          className="font-semibold text-red-800 hover:underline">Contact Us
-        </Link>
       </div>
       
       <form className="rightItems flex items-center">

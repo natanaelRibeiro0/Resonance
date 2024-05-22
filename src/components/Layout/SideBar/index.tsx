@@ -15,7 +15,6 @@ export default function SideBar(){
         <ul className="
             pl-16 
             flex flex-col gap-7 justify-center items-start">
-          
           <Link 
               href="" 
             className="
