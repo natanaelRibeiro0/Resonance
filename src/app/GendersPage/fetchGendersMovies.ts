@@ -49,7 +49,7 @@ const gendersObject: Array<GenderObjectInterface>  = [
   },
   {
     "id": 9648,
-    "name": "MYSTERI"
+    "name": "MYSTERY"
   },
   {
     "id": 10749,
@@ -95,7 +95,7 @@ export default async function fetchGendersMovies( query: string, page: number){
   try {
     const response = await fetch(`https://api.themoviedb.org/3/discover/movie?include_adult=false&language=en-US&page=${page}&sort_by=popularity.desc&with_genres=${key.id}`, options)
     const data = response.json()
-    return (data)
+    return data
   } catch (error) {
     console.log(error)
   } 
