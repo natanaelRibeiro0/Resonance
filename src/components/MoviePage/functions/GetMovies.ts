@@ -20,6 +20,7 @@ interface Movie {
 export default function Getmovies(){
   const useParams = useSearchParams() 
   const movieDetails = useParams.get('movieDetails')
+  if (!movieDetails) { return } 
   const movieDetailsJSON: Movie = JSON.parse(movieDetails)
   return movieDetailsJSON
 }
