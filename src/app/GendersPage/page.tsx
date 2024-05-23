@@ -10,7 +10,7 @@ import RightArrow from "@/components/GendersPage/RightArrow"
 import MovieCard from "@/components/GendersPage/MovieCard"
 
 interface Movie {
-  genre_ids: Array<number>
+  genre_ids: Array<number>;
   id: number,
   original_title: string,
   overview: string,
@@ -18,7 +18,7 @@ interface Movie {
   release_date: string,
   title: string,
   video: Boolean,
-  vote_average: number,
+  vote_average: number
 }
 
 export interface GenderObjectInterface {
@@ -37,7 +37,6 @@ export default function SearchPage(){
 
   useEffect(() => {
       if (!querry) return 
-    
       const fetchMovies = async () => {
         try {
           const response = await fetchGendersMovies(querry, page)

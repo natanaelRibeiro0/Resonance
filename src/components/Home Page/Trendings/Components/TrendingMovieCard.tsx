@@ -13,7 +13,6 @@ interface Props {
   poster_path: string,
   release_date: string,
   title: string,
-  video: Boolean,
   vote_average: number,
 }
 

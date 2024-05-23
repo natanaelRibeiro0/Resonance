@@ -9,12 +9,12 @@ export interface Movie {
   id: number;
   title: string, 
   overview: string, 
-  posterPath: string, 
+  poster_path: string,
   releaseDate: string,
-  genre_ids: string,
+  genre_ids: Array<number>,
   original_title: string,
   release_date: string,
-  vote_average: string
+  vote_average: number
 }
 
 export default async function getTrendingMovies(){
@@ -28,6 +28,6 @@ export default async function getTrendingMovies(){
   const promise: PromiseResponse = await fetch('https://api.themoviedb.org/3/movie/popular?language=en-US&page=1', options)
     .then(response => response.json())
   
-  const data = promise.results.slice(0, 15)
+  const data : Array<Movie> = promise.results.slice(0, 15)
   return (data)
 }
