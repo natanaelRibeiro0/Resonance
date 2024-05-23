@@ -1,6 +1,5 @@
 "use client"
 
-import getAccouunt from '@/components/MoviePage/functions/getAccount';
 
 import DescSection from "@/components/MoviePage/DescSection"
 import VideoSection from "@/components/MoviePage/VideoSection"
@@ -10,7 +9,6 @@ import Aside from '@/components/MoviePage/Aside';
 import Line from '@/components/MoviePage/Line';
 
 import Getmovies from '@/components/MoviePage/functions/GetMovies';
-import getSavedComment from '@/components/MoviePage/functions/getSavedComments';
 
 interface Movie {
   adult: Boolean ,
@@ -41,54 +39,8 @@ export interface CommentInterface {
 
 export default function MoviePage(){
 
-  // function saveComment( movieId: number, text: string, emoji:string ){
-
-  //   if( savedComment ){      
-  //     const newComment: CommentInterface = {
-  //       movieId,
-  //       comment : {
-  //         id: savedComment.comment.id,
-  //         text,
-  //         emoji
-  //       }
-  //     }
-      
-  //     console.log(`saving new comment : ${ 
-  //       JSON.stringify(newComment)
-  //     }`)
-
-  //     const index = account.comments.findIndex( comment => comment.movieId === movies.id)
-  //     account.comments.splice(index, 2, newComment)
-  //     localStorage.setItem('resonance-account', JSON.stringify(account))
-  //     setSavedComment(newComment)
-    
-  //   } else {
-  //     const newComment: CommentInterface = {
-  //       movieId,
-  //       comment : {
-  //         id: uniqid(),
-  //         text,
-  //         emoji
-  //       }
-  //     }
-      
-  //     console.log(`saving new comment: ${ 
-  //       JSON.stringify(newComment)
-  //     }`)
-
-  //     account.comments.unshift(newComment) 
-  //     localStorage.setItem('resonance-account', JSON.stringify(account))
-  //     setSavedComment(newComment)
-  //   } 
-
-
-  //   setComment("")
-  //   setEmoji("")
-  // }  
 
   const movies = Getmovies()  
-  const account = getAccouunt()
-  // const [savedComment, setSavedComment] = useState( () => getSavedComment( account, movies.id))
   const [showEmojiDropdown, setShowEmojiDropdown] = useState(false)  
   const [emoji, setEmoji] : [string, Dispatch<SetStateAction<string>>] = useState("")
   const [comment, setComment ] : [string, Dispatch<SetStateAction<string>>] = useState("")
@@ -142,14 +94,7 @@ export default function MoviePage(){
           </section>
           <Line />      
 
-          {/* <section className="coments-section">
-            <h1 className="text-4xl font-bold"> Comments </h1>
-              { savedComment !== undefined ? 
-              <CommentsComponent key={savedComment.comment.id} text={savedComment.comment.text} emoji={savedComment.comment.emoji} />
-              : null  
-              }
-          </section> */}
-          
+         
           </main>
       </div> 
       }
