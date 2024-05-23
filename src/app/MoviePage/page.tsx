@@ -88,7 +88,7 @@ export default function MoviePage(){
 
   const movies = Getmovies()  
   const account = getAccouunt()
-  const [savedComment, setSavedComment] = useState( () => getSavedComment( account, movies.id))
+  // const [savedComment, setSavedComment] = useState( () => getSavedComment( account, movies.id))
   const [showEmojiDropdown, setShowEmojiDropdown] = useState(false)  
   const [emoji, setEmoji] : [string, Dispatch<SetStateAction<string>>] = useState("")
   const [comment, setComment ] : [string, Dispatch<SetStateAction<string>>] = useState("")
@@ -100,7 +100,9 @@ export default function MoviePage(){
 
   return(
     <>
-      { loadedPage === true ? 
+      { loadedPage === false || movies === undefined ? 
+        
+        null : 
         
         <div className="h-fit pl-36 flex items-start">
           <Aside poster_path={movies.poster_path} genre_ids={movies.genre_ids} title={movies.title} vote_avarage={movies.vote_average}></Aside>
@@ -147,8 +149,9 @@ export default function MoviePage(){
               : null  
               }
           </section> */}
-        </main>
-    </div> 
-    : null}
+          
+          </main>
+      </div> 
+      }
   </>)
 }
