@@ -1,16 +1,19 @@
 import { CommentInterface } from "@/app/MoviePage/page"
 
-interface Account{
+export interface Account{
   name: string,
   comments: Array<CommentInterface>
 }
 
+const testeAcc: Account = {
+  name: "John Doe",
+  comments: []
+}
 export default function getAccouunt(){
   try{
     const accountDetails = localStorage.getItem('resonance-account')  
     if(typeof accountDetails === undefined || typeof accountDetails === null) return 
-    const account: Account = JSON.parse(accountDetails)  
-    return account
+    return testeAcc
   } catch(e) {
     console.error(e)
   } 
