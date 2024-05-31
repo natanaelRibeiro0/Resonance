@@ -184,4 +184,4 @@ For a better explanation of how the slides redirect the users, you can see the t
 
 ![favicon-icon](https://github.com/natanaelRibeiro0/Resonance/assets/137962473/0bd224bf-7740-46b7-b7c6-50bffe160fd8)
 > [!Tip]
->You can follow the process [here](https://resonance-lemon.vercel.app/)
+>You can follow the process [here]([https://resonance-lemon.vercel.app/](https://resonance-ten.vercel.app/))
